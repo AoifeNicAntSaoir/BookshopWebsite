@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Add a Book - Clonakilty Bookshop</title>
+    <meta charset='utf-8'>
+    <meta name="description" content="Clonakilty Bookshop's new website is now live! Come visit us in 12 Pearse Street, Clonakilty, Co. Cork">
+    <meta name="author" content="Aoife Sayers">
+     <meta name="viewport" content="width=device-width" />
+
+
+ <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+ <link rel="stylesheet" type="text/css" href="bookshopStyle.css"/>
+
+  </head>
+  <body>
+<div id="wrapper">
+
+<div class="header">
+
+
+                                                             
+</div> 
+<div class="background">
+  <div class="transbox">
+    <h1><p>Clonakilty <span class="highlight">Bookshop</span></p></h1>
+  </div>
+
+  
+<div id="menu">  
+  <div class="menu-container">
+    <a href="#menu" class="menu-button">Menu</a>
+      <div class="menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="add-a-book.html">Add Book</a>
+        <a href="UpdateRemove.php">Update/Delete Book</a>
+        <a href="select2.php">View All Books</a>
+        <a href="refinesearch.html">Search Book</a> 
+        <a href="custorder.php">Order Books</a>  
+      </div>
+  </div>
+</div>
+</div>
+<div id="box1">
+    <h3 style="text-shadow: 1px 1px gray; text-align: center; ">Add a <span style="text-shadow: 1px 1px gray;" class="highlight">Book</span></h3>
+    <form action="add-a-book.php" method="post">
+    <table width="500" border="0" cellspacing="4" cellpadding="5">
+    <tr><td>Book Name:</td> <td><input type="text" name="bookname"></td></tr>        
+    <tr><td>Author:</td> <td><input type="text" name="author"></td></tr>              
+    <tr><td>Quantity:</td> <td><select name="quantity">
+<option value=1 selected>1</option>
+<option value=2 >2</option>
+<option value=3 >3</option>
+<option value=4 >4</option>
+<option value=5 >5</option>
+<option value=6 >6</option>
+<option value=7 >7</option>
+<option value=8 >8</option>
+<option value=9 >9</option>
+<option value=10 >10</option>
+</select></td></tr>          
+    <tr><td>Genre:</td> <td><input type="text" name="genre"></td></tr>                
+    <tr><td>Description:</td> <td><textarea name="description" rows="3“ cols="65" placeholder="Enter blurb of book"></textarea></td></tr>  
+    <tr><td>Year of Release:</td> <td><input type="text" placeholder="yyyy-mm-dd" name="yearofrelease"></td></tr>  
+    <tr><td> Price:</td><td> <input type="text" name="price" placeholder="€"></td></tr>   
+                                                                                                        
+
+  <tr><td><input style="margin-left: 8%; background: orange; color: #fff; text-shadow: 1px 1px gray; font-weight: bold; width: 100px; border-radius: 15px; height: 25px;" type="submit" name="submitdetails" value="SUBMIT" />
+  <input style="margin-left: 2%; background: orange; color: #fff; text-shadow: 1px 1px gray; font-weight: bold; width: 100px; border-radius: 15px; height: 25px;" type="reset" value="RESET" /></td></tr>
+  </table>
+</form>
+<div id="viewmorelink"><a href="select2.php">View All Books</a></div>
+</div>
+
+
+<div id="footer">
+    <div class="footerinfo">
+        Clonakilty Bookshop Limited&trade;<br>
+        Email: <a href="emailto:clonakiltybookshop@gmail.com">clonakiltybookshop@gmail.com</a><br>
+        Telephone:(077)0123456789<br><br>
+        
+        <div class="hidefb"><div class="fb-page" data-href="https://www.facebook.com/clonakiltybookshop" data-width="300" data-height="250" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/clonakiltybookshop"></blockquote></div></div></div>
+        <div class="hidefb"><a class="twitter-timeline" href="https://twitter.com/clonakiltybooks style=" position: absolute; top: 5%; " data-widget-id="588012825290874881">Tweets by @clonakiltybooks</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div> </div>
+    <div class="sitemap">
+        <h3>Sitemap</h3>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Clonakilty Bookshop Facebook Page</a></li>
+            <li><a href="#">Clonakilty Bookshop Twitter Page</a></li>
+        </ul>      
+    </div>
+<div class="SitemapR">View the Sitemap</div>
+    
+</div>
+</div>
+
+
+
+
+
+
+
+  </body>
+</html>
